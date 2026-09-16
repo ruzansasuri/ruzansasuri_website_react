@@ -31,6 +31,9 @@ export default function Footer() {
                 <Link className="link-secondary text-decoration-none" to="/projects">Projects</Link>
               </li>
               <li className="mb-2">
+                <Link className="link-secondary text-decoration-none" to="/repos">Repos</Link>
+              </li>
+              <li className="mb-2">
                 <Link className="link-secondary text-decoration-none" to="/stycobot">StycoBot</Link>
               </li>
             </ul>

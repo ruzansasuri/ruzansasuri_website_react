@@ -5,7 +5,8 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "tsc -b && vite build",
+    "generate:rewrites": "node scripts/generate-vercel-rewrites.mjs",
+    "build": "node scripts/generate-vercel-rewrites.mjs && tsc -b && vite build",
     "lint": "oxlint",
     "preview": "vite preview"
   },

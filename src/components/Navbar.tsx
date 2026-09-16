@@ -8,6 +8,7 @@ const NAV_ITEMS: { label: string; path: string; key: string }[] = [
   { label: "Resume", path: "/resume", key: "resume" },
   { label: "Skills", path: "/skills", key: "skills" },
   { label: "Projects", path: "/projects", key: "projects" },
+  { label: "Repos", path: "/repos", key: "repos" },
   { label: "StycoBot", path: "/stycobot", key: "stycobot" },
   { label: "Contact", path: "/contact", key: "contact" },
 ];
