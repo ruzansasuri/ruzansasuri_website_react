@@ -1,5 +1,12 @@
 {
   "rewrites": [
-    { "source": "/(.*)", "destination": "/index.html" }
+    {
+      "source": "/projects/where-in-the-world-is-lake-ontario",
+      "destination": "https://where-in-the-world-is-lake-ontario.vercel.app/"
+    },
+    {
+      "source": "/(.*)",
+      "destination": "/index.html"
+    }
   ]
 }

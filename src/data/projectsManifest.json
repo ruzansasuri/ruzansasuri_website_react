@@ -1,0 +1,10 @@
+[
+  {
+    "slug": "where-in-the-world-is-lake-ontario",
+    "name": "Where in the World is Lake Ontario",
+    "description": "A fun jab at certain events.",
+    "thumbnail": "/assets/witwilo_thumbnail.png",
+    "videoUrl": "/assets/witwilo_demo.mp4",
+    "deployUrl": "https://where-in-the-world-is-lake-ontario.vercel.app/"
+  }
+]

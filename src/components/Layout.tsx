@@ -7,7 +7,8 @@ const BODY_CLASSES: Record<string, string> = {
   "/": "d-flex flex-column h-100",
   "/resume": "d-flex flex-column h-100 bg-light",
   "/skills": "d-flex flex-column h-100 bg-light",
-  "/projects": "d-flex flex-column h-100 bg-light",
+  "/projects": "d-flex flex-column h-100",
+  "/repos": "d-flex flex-column h-100 bg-light",
   "/stycobot": "d-flex flex-column h-100 bg-light",
   "/contact": "d-flex flex-column",
 };

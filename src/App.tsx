@@ -4,6 +4,7 @@ import Home from "./pages/Home";
 import Resume from "./pages/Resume";
 import Skills from "./pages/Skills";
 import Projects from "./pages/Projects";
+import Repos from "./pages/Repos";
 import StycoBot from "./pages/StycoBot";
 import Contact from "./pages/Contact";
 
@@ -16,6 +17,7 @@ export default function App() {
           <Route path="/resume" element={<Resume />} />
           <Route path="/skills" element={<Skills />} />
           <Route path="/projects" element={<Projects />} />
+          <Route path="/repos" element={<Repos />} />
           <Route path="/stycobot" element={<StycoBot />} />
           <Route path="/contact" element={<Contact />} />
         </Route>
